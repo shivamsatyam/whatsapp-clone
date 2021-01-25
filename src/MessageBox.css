@@ -1,0 +1,48 @@
+.MessageBox{
+	width:fit-contain;
+}
+
+
+.MessageBox__user{
+	    display: flex;
+    justify-content: flex-end;
+}
+
+.MessageBox__default{
+	    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.MessageBox__user__card{
+
+        background-color: #DCF8C6 !important;
+    margin-right: 11%;
+    margin-top: 14px;
+}
+
+.MessageBox__default__card{
+        background-color: #fff !important;
+    margin-left: 11%;
+    margin-top: 14px;
+
+}
+
+
+.MessageBox small {
+    position: relative;
+    font-size: 13px;
+    font-weight: bolder;
+    
+    top: 23px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.MessageBox small svg{
+	color:blue;
+}
+
+

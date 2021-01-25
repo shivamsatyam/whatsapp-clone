@@ -1,0 +1,130 @@
+.main__app{
+       width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main__app__color1{
+	    width: 100%;
+    height: 20vh;
+    background-color: #128c7e;
+}
+.main__app__color2{
+	    width: 100%;
+    height: 80vh;
+    background-color: #ece5dd;
+}
+.main__app__center{
+    width: 94vw;
+    display: flex;
+    flex-direction:row;
+    margin: auto;
+    height: 94vh;
+    position: absolute;
+    background-color: black;
+}
+
+.main__app__center__left__scroll__div{
+	    background-color: white;
+    overflow: auto;
+}
+.media{
+	    display: flex;
+    /* align-items: flex-start; */
+    height: 8vh;
+    align-items: center;
+    border-bottom: 1px solid;
+    width: 22vw;
+}
+.media img{
+	    margin-right: 1rem!important;
+    width: 4vw;
+    border-radius: 50%;
+}
+
+
+.main__app__center__right__scroll__div{
+flex:1;
+}
+
+.main__app__center__input{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    flex-direction: row;
+    background-color: #d4cdc5;
+    flex: 1;
+    width: 72vw;
+    padding: 10px;
+}
+
+.main__app__center__setting{
+display: flex;
+    align-items: center;
+    margin-right: 11px;
+}
+.main__app__center__setting svg{
+	    transform: scale(1.5);
+}
+
+.main__app__center__input input{
+    display: flex;
+    flex: 1;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+
+.main__app__center__input button{
+border: 1px;
+    border-radius: 50%;
+    background-color: green;
+    width: 41px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+.main__app__center__header{
+    display: flex;
+    background-color: #ece5dd;
+    position: fixed;
+    width: 72vw;
+    z-index: 56;
+}
+
+.main__app__center__header__image{
+	display:flex;
+}
+
+.main__app__center__header__image img{
+    width: 4vw;
+    border-radius: 50%;
+}
+
+.main__app__center__header__name{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+.main__app__center__header__name h2{
+
+}
+
+.main__app__center__header__name small{
+
+}
+
+.main__app__center__header__icons{
+    flex: 0.1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__app__center__header__icons svg{
+
+}
